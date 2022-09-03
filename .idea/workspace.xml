@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f51b99f-1bb7-4286-a071-aa521d0e3ef0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoinFlipper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GenericCoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flipper.java" afterDir="false" />
+    <list default="true" id="0f51b99f-1bb7-4286-a071-aa521d0e3ef0" name="Changes" comment="Initial Push, Part 1 completed Part 2 partially completed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericCoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/flipper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +54,31 @@
       <option name="presentableId" value="Default" />
       <updated>1662060655322</updated>
       <workItem from="1662060657642" duration="2521000" />
-      <workItem from="1662084049465" duration="3678000" />
+      <workItem from="1662084049465" duration="7348000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Push, Part 1 completed Part 2 partially completed">
+      <created>1662170134760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662170134760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -76,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Push, Part 1 completed Part 2 partially completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Push, Part 1 completed Part 2 partially completed" />
   </component>
 </project>

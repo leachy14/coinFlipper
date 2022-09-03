@@ -14,7 +14,7 @@ public class GenericCoin {
         }
     }
     //this is the getSideUp method, meant to return the side that is up
-    public function getSideUp() {
+    public string getSideUp() {
         return sideUp;
     }
 
