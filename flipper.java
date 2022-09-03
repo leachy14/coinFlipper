@@ -22,18 +22,17 @@ public class flipper {
             }
         }
     }
-
+    //setters
     private void setCoin1Heads(int heads) {
         coin1Heads = heads;
     }
     private void setCoin2Heads(int heads) {
         coin2Heads = heads;
     }
-
+    //getters
     public int getCoin1Heads() {
         return coin1Heads;
     }
-
     public int getCoin2Heads() {
         return coin2Heads;
     }
@@ -47,10 +46,12 @@ public class flipper {
             System.out.println("Both coins had heads the same amount of times");
         }
     }
-    // perhaps add setter here instead of having it in the public flipper method
+
     public static void main(String args[]) {
         flipper flip = new flipper();
         flip.flipper();
+        system.out.println("Coin 1 had " + flip.getCoin1Heads() + " heads");
+        system.out.println("Coin 2 had " + flip.getCoin2Heads() + " heads");
         flip.compare();
     }
 

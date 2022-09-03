@@ -1,4 +1,4 @@
-public class GenericCoin {
+public class GenericCoin implements coinInterface {
     //this class is supposed to represent a coin with no value or name
     //the coin should have a heads side and a tails side and shold be able to tell which side is up
     private string sideUp;
