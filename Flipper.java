@@ -1,4 +1,4 @@
-public class flipper {
+public class Flipper {
     //This class is the flipper class, it should toss two coins 50 times each
     //It needs to count how many times each coin comes up heads, and compare both coins to see which had heads more often.
 
@@ -48,10 +48,10 @@ public class flipper {
     }
 
     public static void main(String args[]) {
-        flipper flip = new flipper();
+        Flipper flip = new Flipper();
         flip.flipper();
-        system.out.println("Coin 1 had " + flip.getCoin1Heads() + " heads");
-        system.out.println("Coin 2 had " + flip.getCoin2Heads() + " heads");
+        System.out.println("Coin 1 had " + flip.getCoin1Heads() + " heads");
+        System.out.println("Coin 2 had " + flip.getCoin2Heads() + " heads");
         flip.compare();
     }
 
