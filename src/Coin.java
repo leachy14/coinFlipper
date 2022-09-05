@@ -7,12 +7,12 @@ public class Coin extends GenericCoin {
     private int value;
 
     //constructors
-    public coin() {
+    public Coin() {
         type = "generic";
         value = 0;
     }
 
-    public coin(String type, int value) {
+    public Coin(String type, int value) {
         setType(type);
         setValue(value);
     }

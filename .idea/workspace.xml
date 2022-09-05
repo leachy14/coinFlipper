@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f51b99f-1bb7-4286-a071-aa521d0e3ef0" name="Changes" comment="updated gitignore and flipper">
-      <change afterPath="$PROJECT_DIR$/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flipper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GenericCoin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coinInterface.class" afterDir="false" />
+    <list default="true" id="0f51b99f-1bb7-4286-a071-aa521d0e3ef0" name="Changes" comment="Cleaned up current project, moved everything in it's correct place">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flipper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericCoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coinInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coinInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,11 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662060655322</updated>
       <workItem from="1662060657642" duration="2521000" />
-      <workItem from="1662084049465" duration="13541000" />
+      <workItem from="1662084049465" duration="15332000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push, Part 1 completed Part 2 partially completed">
       <created>1662170134760</created>
@@ -100,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662260211912</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created coin class that inherets genericcoin">
+      <created>1662335073955</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662335073955</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +146,8 @@
     <MESSAGE value="created interface, more revisions" />
     <MESSAGE value="created README" />
     <MESSAGE value="updated gitignore and flipper" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated gitignore and flipper" />
+    <MESSAGE value="created coin class that inherets genericcoin" />
+    <MESSAGE value="Cleaned up current project, moved everything in it's correct place" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up current project, moved everything in it's correct place" />
   </component>
 </project>
