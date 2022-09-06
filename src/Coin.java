@@ -4,7 +4,7 @@ public class Coin extends GenericCoin {
     it inherets GenericCoin, and should have constructors and setters and getters
      */
     private String type;
-    private int value;
+    private double value;
 
     //constructors
     public Coin() {
@@ -12,7 +12,7 @@ public class Coin extends GenericCoin {
         value = 0;
     }
 
-    public Coin(String type, int value) {
+    public Coin(String type, double value) {
         setType(type);
         setValue(value);
     }
@@ -21,7 +21,7 @@ public class Coin extends GenericCoin {
     private void setType(String type) {
         this.type = type;
     }
-    private void setValue(int value) {
+    private void setValue(double value) {
         this.value = value;
     }
 
@@ -29,7 +29,7 @@ public class Coin extends GenericCoin {
     public String getType() {
         return type;
     }
-    public int getValue() {
+    public double getValue() {
         return value;
     }
     /*

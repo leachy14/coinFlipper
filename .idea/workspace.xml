@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f51b99f-1bb7-4286-a071-aa521d0e3ef0" name="Changes" comment="Cleaned up current project, moved everything in it's correct place">
+    <list default="true" id="0f51b99f-1bb7-4286-a071-aa521d0e3ef0" name="Changes" comment="removed &quot;public&quot; as it was not needed">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flipper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenericCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericCoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coinInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coinInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flipper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericCoin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2EBEcFotJLax32InkrBVgaDiFWa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -68,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662060655322</updated>
       <workItem from="1662060657642" duration="2521000" />
-      <workItem from="1662084049465" duration="15332000" />
+      <workItem from="1662084049465" duration="21160000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push, Part 1 completed Part 2 partially completed">
       <created>1662170134760</created>
@@ -112,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662335073955</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cleaned up current project, moved everything in it's correct place">
+      <created>1662351910555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662351910555</updated>
+    </task>
+    <task id="LOCAL-00008" summary="removed &quot;public&quot; as it was not needed">
+      <created>1662351985521</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662351985521</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +165,7 @@
     <MESSAGE value="updated gitignore and flipper" />
     <MESSAGE value="created coin class that inherets genericcoin" />
     <MESSAGE value="Cleaned up current project, moved everything in it's correct place" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up current project, moved everything in it's correct place" />
+    <MESSAGE value="removed &quot;public&quot; as it was not needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed &quot;public&quot; as it was not needed" />
   </component>
 </project>

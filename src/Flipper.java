@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Flipper {
     //This class is the flipper class, it should toss two coins 50 times each
     //It needs to count how many times each coin comes up heads, and compare both coins to see which had heads more often.
@@ -11,11 +13,11 @@ public class Flipper {
         for (int i = 0; i < 50; i++) {
             coin1.toss();
             coin2.toss();
-            if (coin1.getSideUp() == "heads") {
+            if (Objects.equals(coin1.getSideUp(), "heads")) {
                 //coin1Heads++; //this may be bad practice
                 setCoin1Heads(getCoin1Heads() + 1);
             }
-            if (coin2.getSideUp() == "heads") {
+            if (Objects.equals(coin2.getSideUp(), "heads")) {
                 //coin2Heads++; // ^^
                 setCoin2Heads(getCoin2Heads() + 1);
             }
@@ -52,6 +54,18 @@ public class Flipper {
         System.out.println("Coin 1 had " + flip.getCoin1Heads() + " heads");
         System.out.println("Coin 2 had " + flip.getCoin2Heads() + " heads");
         flip.compare();
+        /*
+        Results:
+        Run 1: Coin 1 had 24 heads
+                Coin 2 had 24 heads
+                Both coins had heads the same amount of times
+        Run 2: Coin 1 had 27 heads
+                Coin 2 had 29 heads
+                Coin 2 had heads more often
+        Run 3: Coin 1 had 29 heads
+                Coin 2 had 20 heads
+                Coin 1 had heads more often
+         */
     }
 
 }
