@@ -1,7 +1,7 @@
 import java.util.Objects;
 /*
     * This is the main test program for the coin the program will create three different coins and flip them each
-    * Everytime a coin lands on heads, its added to a balance when that balance reaches a dollar, the program ends
+    * Everytime a coin lands on heads, it's added to a balance when that balance reaches a dollar, the program ends
     * @author Christopher Leach
  */
 public class Main {

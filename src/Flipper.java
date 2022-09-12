@@ -17,22 +17,14 @@ public class Flipper {
             coin1.toss();
             coin2.toss();
             if (Objects.equals(coin1.getSideUp(), "heads")) {
-                //coin1Heads++; //this may be bad practice
-                setCoin1Heads(getCoin1Heads() + 1);
+                coin1Heads++;
             }
             if (Objects.equals(coin2.getSideUp(), "heads")) {
-                //coin2Heads++; // ^^
-                setCoin2Heads(getCoin2Heads() + 1);
+                coin2Heads++;
             }
         }
-    }
-    //setters
-    private void setCoin1Heads(int heads) {
-        coin1Heads = heads;
-    }
-    private void setCoin2Heads(int heads) {
-        coin2Heads = heads;
-    }
+    } //end flipper
+
     //getters
     public int getCoin1Heads() {
         return coin1Heads;
@@ -49,7 +41,7 @@ public class Flipper {
         } else {
             System.out.println("Both coins had heads the same amount of times");
         }
-    }
+    } //end compare
     //main method that will create the flipper object and call the methods
     public static void main(String[] args) {
         Flipper flip = new Flipper();
@@ -69,6 +61,6 @@ public class Flipper {
                 Coin 2 had 20 heads
                 Coin 1 had heads more often
          */
-    }
+    } //end main
 
 }

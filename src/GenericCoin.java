@@ -14,9 +14,9 @@ public class GenericCoin implements CoinInterface {
     // this is the toss method, meant to emulate a flip of the coin
     public void toss() {
         if (Math.random() > 0.5) {
-            setSideUp(heads);
+            sideUp = heads;
         } else {
-            setSideUp(tails);
+            sideUp = tails;
         }
     }
     //this is the getSideUp method, meant to return the side that is up
@@ -25,11 +25,11 @@ public class GenericCoin implements CoinInterface {
     }
 
     // set side up
-    private void setSideUp(String side) {
-        if (Objects.equals(side, heads)) {
-            sideUp = heads;
-        } else {
-            sideUp = tails;
-        }
-    }
+//    private void setSideUp(String side) {
+//        if (Objects.equals(side, heads)) {
+//            sideUp = heads;
+//        } else {
+//            sideUp = tails;
+//        }
+//    }
 }

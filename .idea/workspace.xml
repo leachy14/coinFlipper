@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f51b99f-1bb7-4286-a071-aa521d0e3ef0" name="Changes" comment="Finished project, just need to add documentation">
+    <list default="true" id="0f51b99f-1bb7-4286-a071-aa521d0e3ef0" name="Changes" comment="Clean up documentation, added constructor to GenericCoin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Flipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flipper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenericCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericCoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coinInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoinInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "4a2f3d",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;4a2f3d&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -74,7 +69,10 @@
       <option name="presentableId" value="Default" />
       <updated>1662060655322</updated>
       <workItem from="1662060657642" duration="2521000" />
-      <workItem from="1662084049465" duration="25088000" />
+      <workItem from="1662084049465" duration="27828000" />
+      <workItem from="1662648161696" duration="641000" />
+      <workItem from="1662686207838" duration="545000" />
+      <workItem from="1663000253869" duration="278000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push, Part 1 completed Part 2 partially completed">
       <created>1662170134760</created>
@@ -139,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662425724016</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Clean up documentation, added constructor to GenericCoin">
+      <created>1662475279469</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662475279469</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +182,7 @@
     <MESSAGE value="Cleaned up current project, moved everything in it's correct place" />
     <MESSAGE value="removed &quot;public&quot; as it was not needed" />
     <MESSAGE value="Finished project, just need to add documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished project, just need to add documentation" />
+    <MESSAGE value="Clean up documentation, added constructor to GenericCoin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up documentation, added constructor to GenericCoin" />
   </component>
 </project>
