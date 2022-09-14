@@ -17,8 +17,8 @@ public class Coin extends GenericCoin {
     }
     /**
      * Alternative constructor that will allow the user to set the name and value of the coin
-     * @param type
-     * @param value
+     * @param type the type of the coin
+     * @param value the value of the coin
      */
     public Coin(String type, double value) {
         setType(type);
@@ -27,7 +27,7 @@ public class Coin extends GenericCoin {
 
     /**
      * These are getters and setters for the type and value of the coin 
-     * @param type
+     * @param type the type of the coin
      */
     private void setType(String type) {
         this.type = type;
@@ -36,7 +36,10 @@ public class Coin extends GenericCoin {
         this.value = value;
     }
 
-    //getters
+    /**
+     * These are getters for the type and value of the coin
+     * @return the type and value of the coin
+     */
     public String getType() {
         return type;
     }

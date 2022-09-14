@@ -39,6 +39,7 @@ public class Main {
     } //end TossCoins
     /**
      * This method will print out the results of the program
+     * @param args main method args
      */
     public static void main(String[] args) {
         Main main = new Main();
@@ -46,8 +47,37 @@ public class Main {
         System.out.println("Final Balance: " + main.balance);
         /*
         Results:
-
+        Run 1:
+        Nickel added to balance
+        Dime added to balance
+        Nickel added to balance
+        Dime added to balance
+        Quarter added to balance
+        Quarter added to balance
+        Quarter added to balance
+        Final Balance: 1.05
+        Run 2:
+        Quarter added to balance
+        Nickel added to balance
+        Dime added to balance
+        Quarter added to balance
+        Nickel added to balance
+        Quarter added to balance
+        Dime added to balance
+        Quarter added to balance
+        Final Balance: 1.3
+        Run 3:
+        Dime added to balance
+        Dime added to balance
+        Dime added to balance
+        Nickel added to balance
+        Quarter added to balance
+        Dime added to balance
+        Quarter added to balance
+        Nickel added to balance
+        Dime added to balance
+        Final Balance: 1.1
          */
-    }
+    } //end main
 
 }

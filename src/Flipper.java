@@ -26,7 +26,7 @@ public class Flipper {
 
     /**
      * These are the getters for the amount of heads each coin has
-     * @return
+     * @return in coin1heads and coin2heads
      */
     public int getCoin1Heads() {
         return coin1Heads;
@@ -46,7 +46,10 @@ public class Flipper {
         }
     } //end compare
 
-    //main method that will create the flipper object and call the methods
+    /**
+     * this method will print out the results of the program
+     * @param args main args
+     */
     public static void main(String[] args) {
         Flipper flip = new Flipper();
         flip.flipper();

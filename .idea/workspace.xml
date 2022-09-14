@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f51b99f-1bb7-4286-a071-aa521d0e3ef0" name="Changes" comment="Clean up documentation, added constructor to GenericCoin">
+    <list default="true" id="0f51b99f-1bb7-4286-a071-aa521d0e3ef0" name="Changes" comment="Finishing touches">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Flipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flipper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,7 +75,8 @@
       <workItem from="1662084049465" duration="27828000" />
       <workItem from="1662648161696" duration="641000" />
       <workItem from="1662686207838" duration="545000" />
-      <workItem from="1663000253869" duration="278000" />
+      <workItem from="1663000253869" duration="903000" />
+      <workItem from="1663115545033" duration="508000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Push, Part 1 completed Part 2 partially completed">
       <created>1662170134760</created>
@@ -144,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662475279469</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="simplify">
+      <created>1663005368991</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663005368991</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +194,8 @@
     <MESSAGE value="removed &quot;public&quot; as it was not needed" />
     <MESSAGE value="Finished project, just need to add documentation" />
     <MESSAGE value="Clean up documentation, added constructor to GenericCoin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean up documentation, added constructor to GenericCoin" />
+    <MESSAGE value="simplify" />
+    <MESSAGE value="Finishing touches" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing touches" />
   </component>
 </project>
