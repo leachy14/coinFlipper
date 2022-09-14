@@ -1,16 +1,15 @@
 import java.util.Objects;
-/*
+/**
     * Program creates two coins and flips them 50 times each, the program counts the amount of times each coin lands on heads
     * the program then compares the results and prints the one with heads more often
     * @author Christopher Leach
-    * Data Structures assignment
  */
+
 public class Flipper {
-    //initialize the coins and variables for counting heads
     GenericCoin coin1 = new GenericCoin();
     GenericCoin coin2 = new GenericCoin();
     private int coin2Heads, coin1Heads;
-
+    
     public void flipper() {
         //this method should flip the coins 50 times each
         for (int i = 0; i < 50; i++) {
@@ -25,13 +24,17 @@ public class Flipper {
         }
     } //end flipper
 
-    //getters
+    /**
+     * These are the getters for the amount of heads each coin has
+     * @return
+     */
     public int getCoin1Heads() {
         return coin1Heads;
     }
     public int getCoin2Heads() {
         return coin2Heads;
     }
+
     //method to compare the results of both coins
     public void compare() {
         if (coin1Heads > coin2Heads) {
@@ -42,6 +45,7 @@ public class Flipper {
             System.out.println("Both coins had heads the same amount of times");
         }
     } //end compare
+
     //main method that will create the flipper object and call the methods
     public static void main(String[] args) {
         Flipper flip = new Flipper();

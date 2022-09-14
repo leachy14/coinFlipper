@@ -1,5 +1,5 @@
 import java.util.Objects;
-/*
+/**
     * This is the main test program for the coin the program will create three different coins and flip them each
     * Everytime a coin lands on heads, it's added to a balance when that balance reaches a dollar, the program ends
     * @author Christopher Leach
@@ -11,7 +11,10 @@ public class Main {
     Coin Nickel = new Coin("nickel", 0.05);
     Coin Dime = new Coin("dime", 0.10);
     Coin Quarter = new Coin("quarter", 0.25);
-
+    /**
+     * This method will toss the coins until the balance reaches a dollar
+     * It will also print out when each coin is added to the balance
+     */
     public void TossCoins() {
         while (balance < dollar) {
             Nickel.toss();
@@ -33,8 +36,10 @@ public class Main {
                 //System.out.println("Balance: " + balance);
             }
         }
-    }
-
+    } //end TossCoins
+    /**
+     * This method will print out the results of the program
+     */
     public static void main(String[] args) {
         Main main = new Main();
         main.TossCoins();
